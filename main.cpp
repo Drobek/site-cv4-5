@@ -17,15 +17,6 @@
 #include <stdlib.h>
 
 using namespace std;
-/*
- * Napište program pro příjem všech linkových rámců vypisující následující informace: 
- * délka rámce
- * linkový protokol
- * adresy odesílatele
- * adresy příjemce (v dvojtečkovém tvaru)
- * protokol síťové vrstvy 
- */
-
 #define BUFFLEN 1500
 
 int finish = 0;
@@ -127,7 +118,6 @@ int main(int argc, char *argv[]) {
         } else {
             cout << "Packet je z jineho rozhrani nez je pozadovano. ignoruji ho" << endl << endl;
         }
-
 
 
         /*
